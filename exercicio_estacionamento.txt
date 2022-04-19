@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+        int n1;
+        System.out.printf("Digite se voce for: Idoso 1, Gestante, 2 e Cadeirante 3: ");
+        n1 = ler.nextInt();
+        
+        if (n1 >= 1 && n1 <= 3){
+            System.out.print("Voce pode estacionar!");
+        }
+        else {
+            System.out.print("Voce nao pode estacionar!");
+        }
+    }
+}
